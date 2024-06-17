@@ -10,7 +10,7 @@ if(input === 'S'){
 }else if(input === 'C'){
     console.log('Usually');
 }else if(input === 'D'){
-    console.log('Effotr');
+    console.log('Effort');
 }else{
     console.log('Failure');
 }
