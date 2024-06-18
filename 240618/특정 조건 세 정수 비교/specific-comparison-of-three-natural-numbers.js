@@ -7,7 +7,7 @@ let c = Number(input[2]);
 
 let result, result2
 
-if(a < b && a < c){
+if(a <= b && a <= c){
     result = 1;
 }else {
     result = 0;
