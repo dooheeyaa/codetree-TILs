@@ -13,7 +13,7 @@ let d = Number(arr2[1]);
 let e = String(arr3[0]);
 let f = Number(arr3[1]);
 
-let result1, result2, result3
+let result1, result2, result3;
 
 if(a === 'Y'){
     if(b >= 37){
@@ -47,7 +47,7 @@ if(e === 'Y'){
     if(f >= 37){
         result3 = 'A';
     }else{
-        result2 = 'C';
+        result3 = 'C';
     }
 }else{
     if(f >= 37){
