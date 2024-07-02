@@ -9,11 +9,10 @@ if(c === 'A'){
     for(i = 1; i <= n; i++){
         result += i + " ";
     }
+    console.log(result);
 }else{
     for(i = n; i >= 1; i--){
         result2 += i + " ";
     }
+    console.log(result2);
 }
-
-console.log(result);
-console.log(result2);
