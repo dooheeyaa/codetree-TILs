@@ -6,7 +6,7 @@ let cnt = 0;
 let cnt2 = 0;
 let cnt3 = 0;
 
-for(let i = 1; i < n; i++){
+for(let i = 1; i <= n; i++){
     if(i % 2 === 0 && i % 6 !== 0){
         cnt++;
     }
